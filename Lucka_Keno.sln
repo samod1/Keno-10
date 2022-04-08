@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucka_Keno", "Lucka_Keno.csproj", "{13EC206E-B1A4-4724-8308-7A5A64293E34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13EC206E-B1A4-4724-8308-7A5A64293E34}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{13EC206E-B1A4-4724-8308-7A5A64293E34}.Debug|Any CPU.Build.0 = Debug|x64
+		{13EC206E-B1A4-4724-8308-7A5A64293E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EC206E-B1A4-4724-8308-7A5A64293E34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EFF67D9-1AED-4173-A9C1-E36D46F088D6}
+	EndGlobalSection
+EndGlobal
