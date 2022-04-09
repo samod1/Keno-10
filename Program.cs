@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prometheus;
+using System;
 using System.Linq;
 
 namespace Lucka_Keno
@@ -53,7 +54,10 @@ namespace Lucka_Keno
 
         }
 
-        //funkcia na vypis pola
+        /// <summary>
+        /// Funkcia na vypis pola
+        /// </summary>
+        /// <param name="cisla">parameter cisla nacita pole integerov</param>
         public static void VypisTipy(int[] cisla)
         {
             
@@ -65,7 +69,10 @@ namespace Lucka_Keno
             }
         }
     
-
+        /// <summary>
+        /// Funckia genrovania losovaneho poradia, vygeneruje sa 10 cisiel, ktore sa v maine dalej overuje, aby sa zabezpecila unikatnost cisel. 
+        /// </summary>
+        /// <returns>nahodne generovane cislo</returns>
         static int GenerujLosovanie()
         {
             Random rd = new Random();
@@ -79,6 +86,12 @@ namespace Lucka_Keno
             return rand;
         }
 
+        /// <summary>
+        /// Funkcia, ktora vyhodnocuje pocet uhadnutych cisel. 
+        /// </summary>
+        /// <param name="losovane">pole vylosovanych cisel</param>
+        /// <param name="tipovane">pole uzivatelom zadanych cisel</param>
+        /// <returns>ak sa tipovane cislo nachadza v poli losovane sa pripocita jedna. <returns>
         static int VyhodnotenieLosovania(int[] losovane, int[]tipovane)
         {
             int pocet_spravnych_tipov = 0;
