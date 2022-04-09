@@ -10,7 +10,7 @@ namespace Lucka_Keno
         static void Main(string[] args)
         {
             int[] tipovane = new int[10];
-            int[] losovane = new int[10];
+            int[] losovane = new int[20];
 
 
             Console.WriteLine("\nKeno 10\n");
@@ -38,7 +38,7 @@ namespace Lucka_Keno
             Console.WriteLine("Vase Tipy");
             VypisTipy(tipovane);
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 20; i++)
             {
                 if(losovane.Contains(GenerujLosovanie()) == false)
                 {
