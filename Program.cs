@@ -39,7 +39,10 @@ namespace Lucka_Keno
 
             for (int i = 0; i < 10; i++)
             {
-                losovane[i] = GenerujLosovanie();
+                if(losovane.Contains(GenerujLosovanie()) == false)
+                {
+                    losovane[i] = GenerujLosovanie();
+                }
             }
 
 
@@ -67,6 +70,11 @@ namespace Lucka_Keno
         {
             Random rd = new Random();
             int rand = rd.Next(1,80);
+
+            /*if(!losovane.Contains(rand))
+            {
+                return rand;
+            }*/
 
             return rand;
         }
